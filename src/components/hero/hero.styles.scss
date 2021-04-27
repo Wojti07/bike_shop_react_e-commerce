@@ -1,0 +1,22 @@
+.hero-body {
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../icon/bicycle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+hero-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-image {
+    font-size: 2.5rem;
+  }
+}
