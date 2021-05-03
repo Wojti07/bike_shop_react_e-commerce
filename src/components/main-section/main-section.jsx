@@ -5,12 +5,12 @@ import "./main-section.styles.scss";
 
 const MainSection = ({ history }) => {
   return (
-    <div className="main-section-container">
-      <div className="main-section-middle">
-        <div className="ms-m-image">
-          <img src={bikeProd} alt="" />
+    <div className="main-section container">
+      <div className="row">
+        <div className="col-sm image">
+          <img src={bikeProd} alt=""  className="img-thumbnail" />
         </div>
-        <div className="ms-m-description">
+        <div className="col-sm description">
           <h2>Lorem ipsum dolor sit amet consectetur.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
